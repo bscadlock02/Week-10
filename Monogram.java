@@ -13,6 +13,7 @@ public class Monogram {
         last = last.substring(0,1);
         first = first.toLowerCase();
         middle = middle.toLowerCase();
+        last = last.toUpperCase();
         System.out.println("Your monogram is: " + first + last + middle );
     input.close();
 }
